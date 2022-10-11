@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.wadah-navigasi{
+    background-color:lightgrey;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigasi{
+    background-color: aquamarine;
+    position: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 1s ease-in-out;
+    box-shadow:3px 3px 14px rgba(0,0,0.2);
+    z-index: 99;
+}
+
+.navigasi .wadah-navigasi{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 1s ease-in-out;
+}
+
+.navigasi ul{
+    color: lightblue;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigasi a{
+    color: hotpink;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 1s ease-in-out;
+}
+
+.navigasi a:hover{
+    color: hotpink;
+}
+
+.logo{
+    color: aquamarine;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigasi .aktif{
+    font-weight: bold;
+}
+
+.mana{
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.sosmed{
+    text-decoration:underline;
+}
+
+.wa{
+    color: #25d366;
+}
+
+.telegram{
+    color: #0000ff;
+}
+
+.ig{
+    color: palevioletred;
+}
+
+.yt{
+    color: #ff0000;
+}
+
+.rata{
+    text-align: center;
+}
+p{
+    color:grey;
+    font-style:unset;
+}
